@@ -1,12 +1,12 @@
 package com.chiralsoftware.pdfscaler;
 
-import com.itextpdf.text.Document;
-import static com.itextpdf.text.PageSize.LETTER;
-import com.itextpdf.text.Rectangle;
-import com.itextpdf.text.pdf.PdfContentByte;
-import com.itextpdf.text.pdf.PdfImportedPage;
-import com.itextpdf.text.pdf.PdfReader;
-import com.itextpdf.text.pdf.PdfWriter;
+import com.lowagie.text.Document;
+import static com.lowagie.text.PageSize.LETTER;
+import com.lowagie.text.Rectangle;
+import com.lowagie.text.pdf.PdfContentByte;
+import com.lowagie.text.pdf.PdfImportedPage;
+import com.lowagie.text.pdf.PdfReader;
+import com.lowagie.text.pdf.PdfWriter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
